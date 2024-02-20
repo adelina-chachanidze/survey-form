@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<div id="heading">
+<h1 id="title">Survey Form</h1>
+<p id="description">Help us to improve our services</p>
+<form id="survey-form">
+</div>
+
+<div id="content">
+<div>
+  <label id="name-label" for="name">Name</label>
+  <input id="name" type="text" required placeholder="Name"></input>
+</div>
+
+<div>
+  <label id="email-label" for="email">Email</label>
+  <input id="email" type="email" required placeholder="Email">
+  </input>
+  </div>
+
+<div>
+    <label>What service did you recieve?</label>
+    <div>
+    <select id="dropdown">
+    <option>Nails</option>
+    <option>Hair</option>
+  </select>
+  </div>
+</div>
+
+<div>
+    <label>What coupon did you use?</label>
+    <div>
+  <label class="choices"><input type="radio" name="cards" value="Discount">Discount</label>
+  <label class="choices"><input type="radio" name="cards" value="Gift Card">Gift Card</label>
+  </div>
+</div>
+
+<div>
+    <label>What additional services did you get?</label>
+    <div>
+  <input type="checkbox" value="Massage">Massage
+  </input>
+   <input type="checkbox" value="Yoga">Yoga
+  </input>
+  </div>
+</div>
+
+<div>
+    <label id="number-label" for="number">How likely on scale form 1 to 10 would you reccemend us?</label>
+    <div>
+    <input id="number" type="number"
+    min="1" max="10" required placeholder="Score">
+    </input>
+    </div>
+  </div>
+
+<div>
+    <label>Anything else to add?</label>
+    <div>
+  <textarea placeholder="Type here..."></textarea>
+  </div>
+</div>
+
+<div>
+  <button id="submit" type="submit">Submit</button>
+  </div>
+</div>
+  
+  </form>
+  </body>
+</html>

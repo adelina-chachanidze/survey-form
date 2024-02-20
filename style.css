@@ -1,0 +1,7 @@
+body {background-color:rgb(241, 218, 187);}
+div {padding: 1%;}
+h1, p, div {text-align: center;}
+#content {background-color: blanchedalmond;}
+#heading {background-color:rgb(188, 154, 104) ;}
+label {font-weight: bold;}
+.choices {font-weight:normal ;}
